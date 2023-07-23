@@ -1,0 +1,319 @@
+
+body {
+    background-color: rgb(17, 17, 17);
+    color: whitesmoke;
+    font-family: Verdana, sans-serif;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.containerFoot {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+
+}
+
+.bar {
+    width: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.bar.fill1 {
+    animation: fill-1 4s infinite
+}
+
+.bar.fill2 {
+    animation: fill-2 4s infinite
+}
+
+.bar.fill1.p2 {
+    animation-delay: 500ms;
+}
+
+.bar.fill2.p2 {
+    animation-delay: 500ms;
+}
+
+.bar.fill1.p3 {
+    animation-delay: 1s;
+}
+
+.bar.fill2.p3 {
+    animation-delay: 1s;
+}
+
+.bar.fill1.p4 {
+    animation-delay: 1500ms;
+}
+
+.bar.fill2.p4 {
+    animation-delay: 1500ms;
+}
+
+.bar.fill1.p5 {
+    animation-delay: 2s;
+}
+
+.bar.fill2.p5 {
+    animation-delay: 2s;
+}
+
+.bar.fill1.p6 {
+    animation-delay: 2500ms;
+}
+
+.bar.fill2.p6 {
+    animation-delay: 2500ms;
+}
+
+.bar.fill1.p7 {
+    animation-delay: 3s;
+}
+
+.bar.fill2.p7 {
+    animation-delay: 3s;
+}
+
+.bar.fill1.p8 {
+    animation-delay: 3500ms;
+}
+
+.bar.fill2.p8 {
+    animation-delay: 3500ms;
+}
+
+
+@keyframes fill-1 {
+    5% {
+    height: 69px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    10% {
+    height: 41px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    15% {
+    height: 19px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    20% {
+    height: 5px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    25% {
+    height: 0px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    30% {
+    height: 5px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    35% {
+    height: 19px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    40% {
+    height: 41px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    45% {
+    height: 69px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    0% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    50% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    55% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    60% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    65% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    70% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    75% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    80% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    85% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    90% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    95% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+    100% {
+    height: 100px;
+    background-color: rgb(17, 17, 17);
+    }
+
+}
+
+@keyframes fill-2 {
+    0% {
+    height: 0px;
+    background-color: green;
+    }
+
+    5% {
+    height: 31px;
+    background-color: green;
+    }
+
+    10% {
+    height: 59px;
+    background-color: green;
+    }
+
+    15% {
+    height: 81px;
+    background-color: green;
+    }
+
+    20% {
+    height: 95px;
+    background-color: green;
+    }
+
+    25% {
+    height: 100px;
+    background-color: green;
+    }
+
+    30% {
+    height: 95px;
+    background-color: green;
+    }
+
+    35% {
+    height: 81px;
+    background-color: green;
+    }
+
+    40% {
+    height: 59px;
+    background-color: green;
+    }
+
+    45% {
+    height: 31px;
+    background-color: green;
+    }
+
+    50% {
+    height: 0px;
+    background-color: green;
+    }
+
+    55% {
+    height: 31px;
+    background-color: green;
+    }
+
+    60% {
+    height: 59px;
+    background-color: green;
+    }
+
+    65% {
+    height: 81px;
+    background-color: green;
+    }
+
+    70% {
+    height: 95px;
+    background-color: green;
+    }
+
+    75% {
+    height: 100px;
+    background-color: green;
+    }
+
+    80% {
+    height: 95px;
+    background-color: green;
+    }
+
+    85% {
+    height: 81px;
+    background-color: green;
+    }
+
+    90% {
+    height: 59px;
+    background-color: green;
+    }
+
+    95% {
+    height: 31px;
+    background-color: green;
+    }
+
+    100% {
+    height: 0px;
+    background-color: green;
+    }
+
+}
+
+
+header {
+    font-size: larger;
+    margin: 35px;
+}
+
+.info {
+    margin: 25px;
+}
